@@ -70,5 +70,15 @@ object Form1: TForm1
     Height = 25
     Caption = '*'
     TabOrder = 4
+    OnClick = btnMultiplicarClick
+  end
+  object btnDividir: TButton
+    Left = 152
+    Top = 136
+    Width = 75
+    Height = 25
+    Caption = '/'
+    TabOrder = 5
+    OnClick = btnDividirClick
   end
 end
