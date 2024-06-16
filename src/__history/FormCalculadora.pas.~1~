@@ -14,7 +14,6 @@ type
     lblResultado: TLabel;
     btnSomar: TButton;
     btnSubtrair: TButton;
-    btnMultiplicar: TButton;
     procedure btnSomarClick(Sender: TObject);
     procedure btnSubtrairClick(Sender: TObject);
 
@@ -24,7 +23,7 @@ type
 
     function somar(valor1, valor2 : Float32): Float32;
     function subtrair(valor1, valor2 : Float32) : Float32;
-    function multiplicar(valor1, valor2: float32): Float32;
+
   public
     { Public declarations }
   end;
@@ -54,11 +53,6 @@ begin
 end;
 
 
-
-function TForm1.multiplicar(valor1, valor2: float32): Float32;
-begin
-
-end;
 
 //Funções
 

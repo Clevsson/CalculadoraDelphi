@@ -3,11 +3,11 @@
 	<Transactions>
     <Transaction>2024/06/14 22:38:40.000.868,=C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/06/15 12:12:42.000.494,=C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/06/15 17:07:52.000.208,C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.dfm</Transaction>
-    <Transaction>2024/06/15 17:07:52.000.208,C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.pas</Transaction>
-    <Transaction>2024/06/15 17:08:09.000.845,C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\Calculadora.dproj</Transaction>
-    <Transaction>2024/06/15 17:13:08.000.065,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\Calculadora.dproj=C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\Calculadora.dproj</Transaction>
-    <Transaction>2024/06/15 17:13:52.000.621,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.pas=C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\src\FormCalculadora.pas</Transaction>
-    <Transaction>2024/06/15 17:13:52.000.621,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.dfm=C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\src\FormCalculadora.dfm</Transaction>
+    <Transaction>2024/06/15 17:07:52.000.208,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.dfm=C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/06/15 17:07:52.000.208,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.pas=C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/15 17:08:09.000.845,C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\Calculadora.dproj=C:\Users\Clevsson\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/06/15 17:13:08.000.065,C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\Calculadora.dproj=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\Calculadora.dproj</Transaction>
+    <Transaction>2024/06/15 17:13:52.000.621,C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\src\FormCalculadora.dfm=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.dfm</Transaction>
+    <Transaction>2024/06/15 17:13:52.000.621,C:\Users\Clevsson\Documents\GitHub\CalculadoraDelphi\src\FormCalculadora.pas=C:\Users\Clevsson\Documents\GitHub\AppDelphi\Calculadora\src\FormCalculadora.pas</Transaction>
   </Transactions>
 </BorlandProject>

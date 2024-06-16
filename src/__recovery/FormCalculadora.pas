@@ -17,6 +17,7 @@ type
     btnMultiplicar: TButton;
     procedure btnSomarClick(Sender: TObject);
     procedure btnSubtrairClick(Sender: TObject);
+    procedure btnMultiplicarClick(Sender: TObject);
 
 
   private
@@ -25,6 +26,7 @@ type
     function somar(valor1, valor2 : Float32): Float32;
     function subtrair(valor1, valor2 : Float32) : Float32;
     function multiplicar(valor1, valor2: float32): Float32;
+
   public
     { Public declarations }
   end;
@@ -36,7 +38,14 @@ implementation
 
 {$R *.dfm}
 
-  procedure TForm1.btnSomarClick(Sender: TObject);
+  procedure TForm1.btnMultiplicarClick(Sender: TObject);
+  var
+    resultado: Float32;
+begin
+      resultado := multiplicar(strto
+end;
+
+procedure TForm1.btnSomarClick(Sender: TObject);
   var
     resultado: Float32;
 begin
@@ -55,12 +64,9 @@ end;
 
 
 
-function TForm1.multiplicar(valor1, valor2: float32): Float32;
-begin
 
-end;
 
-//Funções
+//FunÃ§Ãµes
 
 function TForm1.somar(valor1: Float32; valor2: Float32): Float32;
     begin
@@ -72,6 +78,11 @@ function TForm1.subtrair(valor1, valor2: Float32): Float32;
   begin
      result:= valor1 - valor2;
   end;
+
+  function TForm1.multiplicar(valor1, valor2: float32): Float32;
+begin
+     result:= valor1 * valor2;
+end;
 
 end.
 
