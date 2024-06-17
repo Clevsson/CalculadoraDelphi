@@ -4,7 +4,6 @@ object FormPrincipal: TFormPrincipal
   Align = alCustom
   BiDiMode = bdRightToLeft
   BorderIcons = [biSystemMenu, biMinimize]
-  BorderStyle = bsSingle
   Caption = 'Calculadora'
   ClientHeight = 114
   ClientWidth = 217
