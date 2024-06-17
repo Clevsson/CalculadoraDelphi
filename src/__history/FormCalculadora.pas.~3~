@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
 
 type
-  TFormPrincipal = class(TForm)
+  TForm1 = class(TForm)
     edtValor1: TEdit;
     edtValor2: TEdit;
     lblIgual: TLabel;
@@ -35,13 +35,13 @@ type
   end;
 
 var
-  FormPrincipal: TFormPrincipal;
+  Form1: TForm1;
 
 implementation
 
 {$R *.dfm}
 
-    procedure TFormPrincipal.btnDividirClick(Sender: TObject);
+    procedure TForm1.btnDividirClick(Sender: TObject);
     var
       resultado : Float32;
   begin
@@ -49,7 +49,7 @@ implementation
        lblResultado.Caption := resultado.ToString ;
   end;
 
-  procedure TFormPrincipal.btnMultiplicarClick(Sender: TObject);
+  procedure TForm1.btnMultiplicarClick(Sender: TObject);
     var
       resultado: Float32;
   begin
@@ -57,7 +57,7 @@ implementation
         lblResultado.Caption := resultado.ToString ;
   end;
 
-  procedure TFormPrincipal.btnSomarClick(Sender: TObject);
+  procedure TForm1.btnSomarClick(Sender: TObject);
     var
       resultado: Float32;
   begin
@@ -66,7 +66,7 @@ implementation
   end;
 
 
-  procedure TFormPrincipal.btnSubtrairClick(Sender: TObject);
+  procedure TForm1.btnSubtrairClick(Sender: TObject);
   var
     resultado: float32;
   begin
@@ -79,25 +79,25 @@ implementation
 //Funções
 
 //Somar
-  function TFormPrincipal.somar(valor1: Float32; valor2: Float32): Float32;
+  function TForm1.somar(valor1: Float32; valor2: Float32): Float32;
       begin
         result :=  valor1 + valor2;
       end;
 
   //Subtrair
-  function TFormPrincipal.subtrair(valor1, valor2: Float32): Float32;
+  function TForm1.subtrair(valor1, valor2: Float32): Float32;
     begin
        result:= valor1 - valor2;
     end;
 
     //Multiplicar
-  function TFormPrincipal.multiplicar(valor1, valor2: float32): Float32;
+  function TForm1.multiplicar(valor1, valor2: float32): Float32;
   begin
        result:= valor1 * valor2;
   end;
 
   //dividir
-  function TFormPrincipal.dividir(valor1, valor2: float32): Float32;
+  function TForm1.dividir(valor1, valor2: float32): Float32;
   begin
        Result := valor1 / valor2;
   end;
